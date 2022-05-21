@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.google.gson.Gson;
+
 import io.appaxion.init.ApiClasses.ApiPostViewModel;
 import io.appaxion.init.ApiClasses.ClsLoginParams;
 import io.appaxion.init.Global.ClsGlobal;
@@ -71,7 +72,7 @@ public class LoginActivity extends AppCompatActivity {
                     pd.dismiss();
                     e.printStackTrace();
                 }
-            }else {
+            } else {
                 ClsGlobal.errorMsg(this, view, "Please Check Internet...!", 2);
             }
         });
@@ -101,7 +102,7 @@ public class LoginActivity extends AppCompatActivity {
         objParams.setMethod(getResources().getString(R.string.set_method));
         objParams.setSessionTimeout(320000000);
         objParams.setUsername(edt_login.getText().toString().trim());
-        objParams.setPassword("P\\e_3]3x");
+        objParams.setPassword(edt_pass.getText().toString().trim());
         objParams.setOneSignalId(getResources().getString(R.string.set_one_signal_id));
         objParams.setAppLogin(true);
         objParams.setDirection(getResources().getString(R.string.direction));
