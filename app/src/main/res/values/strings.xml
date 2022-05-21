@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PracticalTest</string>
+    <string name="api_key">3d51ecb5ddbf43c4c9ed6c31936f17a930aab5e68ecb5ba6ef45837f45b193f6</string>
+    <string name="set_method">userLogin</string>
+    <string name="set_one_signal_id">asdfw3423df</string>
+    <string name="set_user_ip">1.1.1</string>
+    <string name="client_type">APP</string>
+    <string name="direction">IN</string>
+
+
+    <string name="logout_message">Are you sure want to logout?</string>
+
+</resources>
