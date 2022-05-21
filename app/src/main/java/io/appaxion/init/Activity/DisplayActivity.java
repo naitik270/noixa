@@ -17,7 +17,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import io.appaxion.init.Adapter.DisplayDataAdp;
 import io.appaxion.init.ApiClasses.ClsLoginParams;
