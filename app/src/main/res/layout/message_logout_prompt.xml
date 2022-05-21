@@ -13,4 +13,5 @@
         android:maxLines="4"
         android:textColor="@color/white"
         android:textSize="@dimen/_12sdp" />
+
 </RelativeLayout>

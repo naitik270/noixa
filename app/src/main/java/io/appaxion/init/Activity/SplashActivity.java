@@ -27,12 +27,10 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 dialog.show();
-                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
-                finish();
+//                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+//                finish();
             }
         }, 2000);
-
-        dialog.dismiss();
     }
 
     void customLoading() {
@@ -40,5 +38,15 @@ public class SplashActivity extends AppCompatActivity {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.load_custom_dialog);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                dialog.dismiss();
+                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                finish();
+
+            }
+        }, 5000);
     }
 }

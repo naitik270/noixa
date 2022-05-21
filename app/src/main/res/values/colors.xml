@@ -8,4 +8,5 @@
     <color name="red">#C50000</color>
     <color name="green">#068032</color>
     <color name="txt_clr">#747474</color>
+    <color name="trans">#8DCCCCCC</color>
 </resources>

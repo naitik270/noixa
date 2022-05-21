@@ -93,7 +93,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     void LoginAPI(View view) {
-        pd = ClsGlobal._prProgressDialog(this, "Check User Name & Password...!", false);
+        pd = ClsGlobal._prProgressDialog(this, "Check Credentials...!", false);
         pd.show();
 
         ClsLoginParams objParams = new ClsLoginParams();
