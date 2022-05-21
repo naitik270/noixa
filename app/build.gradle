@@ -7,7 +7,7 @@ android {
     buildToolsVersion "32.0.0"
 
     defaultConfig {
-        applicationId "com.practical.test.demo"
+        applicationId "io.appaxion.init"
         minSdkVersion 16
         targetSdkVersion 32
         versionCode 1
@@ -39,5 +39,5 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'com.github.bumptech.glide:glide:4.12.0'
-
+    implementation 'com.airbnb.android:lottie:3.3.1'
 }

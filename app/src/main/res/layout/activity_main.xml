@@ -25,7 +25,7 @@
             android:src="@drawable/ic_back_icon" />
 
         <TextView
-            android:id="@+id/txt_user_name"
+            android:id="@+id/txt_company_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="9"
@@ -42,41 +42,6 @@
             android:layout_weight="1"
             android:src="@drawable/ic_logout" />
     </LinearLayout>
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/_5sdp">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_80sdp"
-            android:layout_gravity="center"
-            app:cardCornerRadius="@dimen/_100sdp">
-
-            <ImageView
-                android:id="@+id/iv_set_img"
-                android:layout_width="@dimen/_80sdp"
-                android:layout_height="@dimen/_80sdp"
-                android:layout_gravity="center"
-                android:scaleType="fitXY"
-                android:src="@mipmap/ic_launcher" />
-
-        </androidx.cardview.widget.CardView>
-    </FrameLayout>
-
-    <TextView
-        android:id="@+id/txt_company_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/_5sdp"
-        android:layout_marginVertical="@dimen/_5sdp"
-        android:fontFamily="@font/poppins_regular"
-        android:gravity="center"
-        android:text="Company Name"
-        android:textColor="@color/app_main_clr"
-        android:textSize="@dimen/_14sdp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_displayUser_description"

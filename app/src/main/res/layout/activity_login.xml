@@ -19,7 +19,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_85sdp"
+                android:layout_height="@dimen/_75sdp"
                 android:src="@mipmap/ic_launcher" />
 
             <EditText
@@ -52,6 +52,7 @@
                 android:drawablePadding="@dimen/_8sdp"
                 android:fontFamily="@font/poppins_regular"
                 android:hint="Password"
+                android:inputType="textPassword"
                 android:paddingStart="@dimen/_10sdp"
                 android:paddingLeft="@dimen/_10sdp"
                 android:textColor="@color/app_main_clr"
